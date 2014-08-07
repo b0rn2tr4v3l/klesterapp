@@ -22,6 +22,7 @@
 		F8F898021993E1000034E09B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F897E61993E1000034E09B /* CoreData.framework */; };
 		F8F8980A1993E1000034E09B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8F898081993E1000034E09B /* InfoPlist.strings */; };
 		F8F8980C1993E1000034E09B /* KlesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F8980B1993E1000034E09B /* KlesterTests.m */; };
+		F8F898161993E2680034E09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F898151993E2680034E09B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F8F898071993E1000034E09B /* KlesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KlesterTests-Info.plist"; sourceTree = "<group>"; };
 		F8F898091993E1000034E09B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8F8980B1993E1000034E09B /* KlesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KlesterTests.m; sourceTree = "<group>"; };
+		F8F898151993E2680034E09B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				F8F897F11993E1000034E09B /* MUAppDelegate.h */,
 				F8F897F21993E1000034E09B /* MUAppDelegate.m */,
+				F8F898151993E2680034E09B /* Main.storyboard */,
 				F8F897F71993E1000034E09B /* Images.xcassets */,
 				F8F897F41993E1000034E09B /* Klester.xcdatamodeld */,
 				F8F897E91993E1000034E09B /* Supporting Files */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F898161993E2680034E09B /* Main.storyboard in Resources */,
 				F8F897ED1993E1000034E09B /* InfoPlist.strings in Resources */,
 				F8F897F81993E1000034E09B /* Images.xcassets in Resources */,
 			);
