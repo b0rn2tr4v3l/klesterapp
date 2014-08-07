@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8F897E11993E1000034E09B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F897E01993E1000034E09B /* Foundation.framework */; };
+		F8F897E31993E1000034E09B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F897E21993E1000034E09B /* CoreGraphics.framework */; };
+		F8F897E51993E1000034E09B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F897E41993E1000034E09B /* UIKit.framework */; };
+		F8F897E71993E1000034E09B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F897E61993E1000034E09B /* CoreData.framework */; };
+		F8F897ED1993E1000034E09B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8F897EB1993E1000034E09B /* InfoPlist.strings */; };
+		F8F897EF1993E1000034E09B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F897EE1993E1000034E09B /* main.m */; };
+		F8F897F31993E1000034E09B /* MUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F897F21993E1000034E09B /* MUAppDelegate.m */; };
+		F8F897F61993E1000034E09B /* Klester.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8F897F41993E1000034E09B /* Klester.xcdatamodeld */; };
+		F8F897F81993E1000034E09B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F897F71993E1000034E09B /* Images.xcassets */; };
+		F8F897FF1993E1000034E09B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F897FE1993E1000034E09B /* XCTest.framework */; };
+		F8F898001993E1000034E09B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F897E01993E1000034E09B /* Foundation.framework */; };
+		F8F898011993E1000034E09B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F897E41993E1000034E09B /* UIKit.framework */; };
+		F8F898021993E1000034E09B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F897E61993E1000034E09B /* CoreData.framework */; };
+		F8F8980A1993E1000034E09B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8F898081993E1000034E09B /* InfoPlist.strings */; };
+		F8F8980C1993E1000034E09B /* KlesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F8980B1993E1000034E09B /* KlesterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8F898031993E1000034E09B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F897D51993E1000034E09B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F897DC1993E1000034E09B;
+			remoteInfo = Klester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8F897DD1993E1000034E09B /* Klester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F897E01993E1000034E09B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8F897E21993E1000034E09B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8F897E41993E1000034E09B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8F897E61993E1000034E09B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F8F897EA1993E1000034E09B /* Klester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Klester-Info.plist"; sourceTree = "<group>"; };
+		F8F897EC1993E1000034E09B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8F897EE1993E1000034E09B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8F897F01993E1000034E09B /* Klester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Klester-Prefix.pch"; sourceTree = "<group>"; };
+		F8F897F11993E1000034E09B /* MUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUAppDelegate.h; sourceTree = "<group>"; };
+		F8F897F21993E1000034E09B /* MUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUAppDelegate.m; sourceTree = "<group>"; };
+		F8F897F51993E1000034E09B /* Klester.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Klester.xcdatamodel; sourceTree = "<group>"; };
+		F8F897F71993E1000034E09B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8F897FD1993E1000034E09B /* KlesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F897FE1993E1000034E09B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8F898071993E1000034E09B /* KlesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KlesterTests-Info.plist"; sourceTree = "<group>"; };
+		F8F898091993E1000034E09B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8F8980B1993E1000034E09B /* KlesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KlesterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8F897DA1993E1000034E09B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F897E31993E1000034E09B /* CoreGraphics.framework in Frameworks */,
+				F8F897E71993E1000034E09B /* CoreData.framework in Frameworks */,
+				F8F897E51993E1000034E09B /* UIKit.framework in Frameworks */,
+				F8F897E11993E1000034E09B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F897FA1993E1000034E09B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F897FF1993E1000034E09B /* XCTest.framework in Frameworks */,
+				F8F898021993E1000034E09B /* CoreData.framework in Frameworks */,
+				F8F898011993E1000034E09B /* UIKit.framework in Frameworks */,
+				F8F898001993E1000034E09B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8F897D41993E1000034E09B = {
+			isa = PBXGroup;
+			children = (
+				F8F897E81993E1000034E09B /* Klester */,
+				F8F898051993E1000034E09B /* KlesterTests */,
+				F8F897DF1993E1000034E09B /* Frameworks */,
+				F8F897DE1993E1000034E09B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8F897DE1993E1000034E09B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F897DD1993E1000034E09B /* Klester.app */,
+				F8F897FD1993E1000034E09B /* KlesterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F897DF1993E1000034E09B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8F897E01993E1000034E09B /* Foundation.framework */,
+				F8F897E21993E1000034E09B /* CoreGraphics.framework */,
+				F8F897E41993E1000034E09B /* UIKit.framework */,
+				F8F897E61993E1000034E09B /* CoreData.framework */,
+				F8F897FE1993E1000034E09B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8F897E81993E1000034E09B /* Klester */ = {
+			isa = PBXGroup;
+			children = (
+				F8F897F11993E1000034E09B /* MUAppDelegate.h */,
+				F8F897F21993E1000034E09B /* MUAppDelegate.m */,
+				F8F897F71993E1000034E09B /* Images.xcassets */,
+				F8F897F41993E1000034E09B /* Klester.xcdatamodeld */,
+				F8F897E91993E1000034E09B /* Supporting Files */,
+			);
+			path = Klester;
+			sourceTree = "<group>";
+		};
+		F8F897E91993E1000034E09B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8F897EA1993E1000034E09B /* Klester-Info.plist */,
+				F8F897EB1993E1000034E09B /* InfoPlist.strings */,
+				F8F897EE1993E1000034E09B /* main.m */,
+				F8F897F01993E1000034E09B /* Klester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8F898051993E1000034E09B /* KlesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8F8980B1993E1000034E09B /* KlesterTests.m */,
+				F8F898061993E1000034E09B /* Supporting Files */,
+			);
+			path = KlesterTests;
+			sourceTree = "<group>";
+		};
+		F8F898061993E1000034E09B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8F898071993E1000034E09B /* KlesterTests-Info.plist */,
+				F8F898081993E1000034E09B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8F897DC1993E1000034E09B /* Klester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F8980F1993E1000034E09B /* Build configuration list for PBXNativeTarget "Klester" */;
+			buildPhases = (
+				F8F897D91993E1000034E09B /* Sources */,
+				F8F897DA1993E1000034E09B /* Frameworks */,
+				F8F897DB1993E1000034E09B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Klester;
+			productName = Klester;
+			productReference = F8F897DD1993E1000034E09B /* Klester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8F897FC1993E1000034E09B /* KlesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F898121993E1000034E09B /* Build configuration list for PBXNativeTarget "KlesterTests" */;
+			buildPhases = (
+				F8F897F91993E1000034E09B /* Sources */,
+				F8F897FA1993E1000034E09B /* Frameworks */,
+				F8F897FB1993E1000034E09B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F898041993E1000034E09B /* PBXTargetDependency */,
+			);
+			name = KlesterTests;
+			productName = KlesterTests;
+			productReference = F8F897FD1993E1000034E09B /* KlesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8F897D51993E1000034E09B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mesh Unlimited, Inc.";
+				TargetAttributes = {
+					F8F897FC1993E1000034E09B = {
+						TestTargetID = F8F897DC1993E1000034E09B;
+					};
+				};
+			};
+			buildConfigurationList = F8F897D81993E1000034E09B /* Build configuration list for PBXProject "Klester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8F897D41993E1000034E09B;
+			productRefGroup = F8F897DE1993E1000034E09B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8F897DC1993E1000034E09B /* Klester */,
+				F8F897FC1993E1000034E09B /* KlesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8F897DB1993E1000034E09B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F897ED1993E1000034E09B /* InfoPlist.strings in Resources */,
+				F8F897F81993E1000034E09B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F897FB1993E1000034E09B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F8980A1993E1000034E09B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8F897D91993E1000034E09B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F897F61993E1000034E09B /* Klester.xcdatamodeld in Sources */,
+				F8F897F31993E1000034E09B /* MUAppDelegate.m in Sources */,
+				F8F897EF1993E1000034E09B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F897F91993E1000034E09B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F8980C1993E1000034E09B /* KlesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8F898041993E1000034E09B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F897DC1993E1000034E09B /* Klester */;
+			targetProxy = F8F898031993E1000034E09B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8F897EB1993E1000034E09B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F897EC1993E1000034E09B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8F898081993E1000034E09B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F898091993E1000034E09B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8F8980D1993E1000034E09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8F8980E1993E1000034E09B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8F898101993E1000034E09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klester/Klester-Prefix.pch";
+				INFOPLIST_FILE = "Klester/Klester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8F898111993E1000034E09B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klester/Klester-Prefix.pch";
+				INFOPLIST_FILE = "Klester/Klester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8F898131993E1000034E09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Klester.app/Klester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klester/Klester-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KlesterTests/KlesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F8F898141993E1000034E09B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Klester.app/Klester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klester/Klester-Prefix.pch";
+				INFOPLIST_FILE = "KlesterTests/KlesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8F897D81993E1000034E09B /* Build configuration list for PBXProject "Klester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F8980D1993E1000034E09B /* Debug */,
+				F8F8980E1993E1000034E09B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F8980F1993E1000034E09B /* Build configuration list for PBXNativeTarget "Klester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F898101993E1000034E09B /* Debug */,
+				F8F898111993E1000034E09B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8F898121993E1000034E09B /* Build configuration list for PBXNativeTarget "KlesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F898131993E1000034E09B /* Debug */,
+				F8F898141993E1000034E09B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8F897F41993E1000034E09B /* Klester.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8F897F51993E1000034E09B /* Klester.xcdatamodel */,
+			);
+			currentVersion = F8F897F51993E1000034E09B /* Klester.xcdatamodel */;
+			path = Klester.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F8F897D51993E1000034E09B /* Project object */;
+}
